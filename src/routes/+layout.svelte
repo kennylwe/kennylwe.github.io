@@ -1,6 +1,9 @@
 <script>
-
+  import { links } from "$lib/routes"
 </script>
+
+<svelte:head>
+</svelte:head>
 
 <title>Kenny's site</title>
 
@@ -8,12 +11,34 @@
 
 
 
+<header>
+  <nav>
+    {#each links as link}
+    <a href={link}> {`${link}`} </a>
+    {/each}
+  </nav>
+</header>
+
+
 
 
 <style (lang="css")>
+  header {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    nav {
+      justify-content: space-around;
+      text-align: center;
+      color: black;
+      a {
+        text-decoration: none;
+      }
+    }   
+  }
+  
   #background {
-    position: fixed;
-    top: 0;
+    position: flex;
     left: 0;
     width: 100%;
     height: 100%;
