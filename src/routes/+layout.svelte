@@ -1,5 +1,5 @@
 <script>
-  import { links } from "$lib/routes"
+  let { children } = $props();
 </script>
 
 <svelte:head>
@@ -13,11 +13,18 @@
 
 <header>
   <nav>
-    {#each links as link}
-    <a href={link}> {`${link}`} </a>
-    {/each}
+    <a href="/">Home</a>
+    <a href="/Contact">Contact</a>
+    <a href="/Projects">Projects</a>
   </nav>
 </header>
+
+
+{@render children()}
+
+<body>
+  
+</body>
 
 
 

@@ -3,7 +3,6 @@
 </script>
 
 
-
 <main>
   <div id="about-me">
     <h1>Hello!</h1>
