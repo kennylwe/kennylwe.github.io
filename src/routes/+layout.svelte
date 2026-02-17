@@ -12,10 +12,14 @@
 
 
 <header>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/Contact">Contact</a>
-    <a href="/Projects">Projects</a>
+  <nav id="navbar">
+    <ul class="route-list">
+      <li class="navbar-item">
+        <a href="/">Home</a>
+        <a href="/Contact">Contact</a>
+        <a href="/Projects">Projects</a>
+      </li>
+    </ul>
   </nav>
 </header>
 
@@ -43,6 +47,11 @@
       }
     }   
   }
+
+  nav {
+    position: flex;
+
+  }
   
   #background {
     position: flex;
@@ -52,4 +61,5 @@
     background-color: #1f1e1e;
     z-index: -1;
   }
+
 </style>

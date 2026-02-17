@@ -6,8 +6,9 @@
 <main>
   <div id="about-me">
     <h1>Hello!</h1>
+    
     <p>
-      This is Kenny! I am currently a sophmore at La Canada High School.
+      <br><br><br>This is Kenny! I am currently a sophmore at La Canada High School.
       I like to code and stuff!
     </p>
   </div>
@@ -22,7 +23,7 @@
     text-align: center;
     max-width: 600px;
     padding: 20px;
-    background-color: #070707;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
