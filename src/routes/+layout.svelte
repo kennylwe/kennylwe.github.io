@@ -8,19 +8,27 @@
 <title>Kenny's site</title>
 
 <main>
-  <div id="background">
+  <div class="background"></div>
+  
+  <div class="main-info">
+    <div class="header">
       <nav id="navbar">
         <ul class="route-list">
           <li class="navbar-item">
-            <a href="/">Home</a>
-            <a href="/Contact">Contact</a>
-            <a href="/Projects">Projects</a>
+            <a href="/" class="menu-link">Home</a>
+          </li>
+          <li>
+            <a href="/Contact" class="menu-link">Contact</a>
+          </li>
+          <li>
+            <a href="/Projects" class="menu-link">Projects</a>
           </li>
         </ul>
       </nav>
-
-    {@render children()}
+    </div>
   </div>
+
+  {@render children()}
 </main>
   
 
@@ -29,36 +37,36 @@
 
 <style (lang="css")>
 
-  :global(html) {
-    background-color: #a79797; 
-    color: #333; 
-  }
-  header {
-    display: flex;
+
+  .background {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
     width: 100vw;
-    height: 10vh;
-    nav {
-      justify-content: space-around;
-      text-align: center;
-      color: black;
-      a {
-        text-decoration: none;
-      }
-    }   
-  }
-
-  nav {
-    position: flex;
-
+    height: 100vh;
+    background-color: #333;
   }
   
   main {
-    position: flex;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #bbb1b1;
-    z-index: -1;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
   }
+  ul {
+    display: flex;
+    /* Adjust alignment properties as needed */
+    align-items: center; 
+    justify-content: flex-start;
+    list-style: none;
 
+  }
+  nav {
+    position: flex;
+  }
+  li {
+    display: flex;
+  }
 </style>
