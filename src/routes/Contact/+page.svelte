@@ -13,6 +13,13 @@
                     </a>
                 </p>
             </li>
+            <li>
+                <p>
+                    Email: 
+                    <a href="kenjlee09@gmail.com">kenjlee09@gmail.com</a>
+                </p>
+            </li>
+
         </ul>
     </div>
 </main>
