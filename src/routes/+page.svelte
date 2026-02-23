@@ -2,7 +2,6 @@
   
 </script>
 
-
 <main>
   <div id="about-me">
     <h1>Hello!</h1>
@@ -11,9 +10,9 @@
       <br><br><br>This is Kenny! I am currently a sophmore at La Canada High School.
       I like to code and stuff!
     </p>
+
   </div>
 </main>
-
 
 
 

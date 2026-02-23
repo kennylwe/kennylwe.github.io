@@ -7,33 +7,32 @@
 
 <title>Kenny's site</title>
 
-<div id="background"></div>
+<main>
+  <div id="background">
+      <nav id="navbar">
+        <ul class="route-list">
+          <li class="navbar-item">
+            <a href="/">Home</a>
+            <a href="/Contact">Contact</a>
+            <a href="/Projects">Projects</a>
+          </li>
+        </ul>
+      </nav>
 
-
-
-<header>
-  <nav id="navbar">
-    <ul class="route-list">
-      <li class="navbar-item">
-        <a href="/">Home</a>
-        <a href="/Contact">Contact</a>
-        <a href="/Projects">Projects</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-
-
-{@render children()}
-
-<body>
+    {@render children()}
+  </div>
+</main>
   
-</body>
 
 
 
 
 <style (lang="css")>
+
+  :global(html) {
+    background-color: #a79797; 
+    color: #333; 
+  }
   header {
     display: flex;
     width: 100vw;
@@ -53,12 +52,12 @@
 
   }
   
-  #background {
+  main {
     position: flex;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #1f1e1e;
+    background-color: #bbb1b1;
     z-index: -1;
   }
 
