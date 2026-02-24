@@ -3,11 +3,10 @@
 </script>
 
 <main>
-  <div id="about-me">
+  <div class="about-me">
     <h1>Hello!</h1>
-    
     <p>
-      <br><br><br>This is Kenny! I am currently a sophmore at La Canada High School.
+      This is Kenny! I am currently a sophmore at La Canada High School.
       I like to code and stuff!
     </p>
 
@@ -17,7 +16,7 @@
 
 
 <style (lang="css")>
-  #about-me {
+  .about-me {
     display: flex;
     text-align: center;
     max-width: 600px;

@@ -7,10 +7,10 @@
 
 <title>Kenny's site</title>
 
-<main>
   <div class="background"></div>
   
   <div class="main-info">
+
     <div class="header">
       <nav id="navbar">
         <ul class="route-list">
@@ -29,7 +29,6 @@
   </div>
 
   {@render children()}
-</main>
   
 
 
@@ -50,11 +49,6 @@
     background-color: #333;
   }
   
-  main {
-    display: flex;
-    width: 100vw;
-    height: 10vh;
-  }
   ul {
     display: flex;
     /* Adjust alignment properties as needed */
