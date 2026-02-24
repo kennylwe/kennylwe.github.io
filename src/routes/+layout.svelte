@@ -61,12 +61,26 @@
     align-items: center; 
     justify-content: flex-start;
     list-style: none;
-
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
   }
+  .route-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+  }
+
   nav {
-    position: flex;
+    display: flex;
   }
   li {
     display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
   }
 </style>
