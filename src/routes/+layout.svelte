@@ -8,7 +8,6 @@
 <title>Kenny's site</title>
 
   <div class="background"></div>
-  
   <div class="main-info">
 
     <div class="header">
@@ -72,9 +71,16 @@
   nav {
     display: flex;
   }
+
   li {
+
     display: flex;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    margin-left: 1em;
+  }
+  a {
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+    color: #EAEFEF;
   }
 </style>
